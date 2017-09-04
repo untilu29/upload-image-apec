@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+    <title>Upload ảnh - Tình nguyện viên, liên lạc viên - Sự kiện APEC 2017</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="google-site-verification" content="ARDfocA3yAuCKhp9D9T4zYF_yU2ppg58qGK_VQO2iQc"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css"/>
+    <link media="screen" rel="stylesheet" href="/css/toastr.min.css"/>
+    <script src="/media/js/jquery.js"></script>
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <!-- You can change the theme colors from here -->
+    <link id="theme" rel="stylesheet" href="/css/colors/blue.css"/>
+
+    <style>
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+#myModal.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /*overflow: auto;  Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+#myModal .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 350px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+#myModal .modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+#myModal .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#myModal .close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 500px){
+    #myModal .modal-content {
+        width: 100%;
+    }
+}
+</style>
+
+</head>
+<body style="padding:0">
+<div class="container-fluid" style="background: #f4f4fd;">
+    <h2 class="text-center text-themecolor m-b-0 m-t-0" style="border-bottom:0">Upload ảnh - Tình nguyện viên, liên lạc viên - Sự kiện APEC
+        2017</h2>
+    <div id="app"></div>
+</div>
+<!--[if !IE]>
+<script>fixScale(document);</script><![endif]-->
+<script src="bundle.js"></script>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close" id="closePicture" >&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
